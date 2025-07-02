@@ -336,7 +336,7 @@ section {
     font-size: 14px;
 }
 .text-container strong {
-    color: inherit;
+    color: #424242 !important;
     font-weight: 600;
 
 }
