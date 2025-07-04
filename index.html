@@ -148,7 +148,7 @@
                 <div class="article-container">
                   <article>
                     <img
-                      src="./assets/checkmark.png"
+                      src="./assets/kotlin.png"
                       alt="Experience icon"
                       class="icon"
                     />
@@ -159,7 +159,7 @@
                   </article>
                   <article>
                     <img
-                      src="./assets/checkmark.png"
+                      src="./assets/java.png"
                       alt="Experience icon"
                       class="icon"
                     />
@@ -170,7 +170,7 @@
                   </article>
                   <article>
                     <img
-                      src="./assets/checkmark.png"
+                      src="./assets/xml.png"
                       alt="Experience icon"
                       class="icon"
                     />
@@ -181,7 +181,7 @@
                   </article>
                   <article>
                     <img
-                      src="./assets/checkmark.png"
+                      src="./assets/composite.png"
                       alt="Experience icon"
                       class="icon"
                     />
@@ -192,7 +192,7 @@
                   </article>
                   <article>
                     <img
-                      src="./assets/checkmark.png"
+                      src="./assets/jetpack.png"
                       alt="Experience icon"
                       class="icon"
                     />
@@ -203,7 +203,7 @@
                   </article>
                   <article>
                     <img
-                      src="./assets/checkmark.png"
+                      src="./assets/figma.png"
                       alt="Experience icon"
                       class="icon"
                     />
@@ -219,7 +219,7 @@
                 <div class="article-container">
                   <article>
                     <img
-                      src="./assets/checkmark.png"
+                      src="./assets/retrofit.png"
                       alt="Experience icon"
                       class="icon"
                     />
@@ -230,7 +230,7 @@
                   </article>
                   <article>
                     <img
-                      src="./assets/checkmark.png"
+                      src="./assets/database.png"
                       alt="Experience icon"
                       class="icon"
                     />
@@ -241,7 +241,7 @@
                   </article>
                   <article>
                     <img
-                      src="./assets/checkmark.png"
+                      src="./assets/firebase.png"
                       alt="Experience icon"
                       class="icon"
                     />
@@ -252,7 +252,7 @@
                   </article>
                   <article>
                     <img
-                      src="./assets/checkmark.png"
+                      src="./assets/postman.png"
                       alt="Experience icon"
                       class="icon"
                     />
@@ -263,7 +263,7 @@
                   </article>
                   <article>
                     <img
-                      src="./assets/checkmark.png"
+                      src="./assets/gitlab.png"
                       alt="Experience icon"
                       class="icon"
                     />
@@ -274,7 +274,7 @@
                   </article>
                    <article>
                     <img
-                      src="./assets/checkmark.png"
+                      src="./assets/sql.png"
                       alt="Experience icon"
                       class="icon"
                     />
@@ -297,82 +297,50 @@
         <section id="projects">
           <p class="section__text__p1">Browse My Recent</p>
           <h1 class="title">Projects</h1>
-          <div class="experience-details-container">
-            <div class="about-containers">
-              <div class="details-container color-container">
-                <div class="article-container">
-                  <img
-                    src="./assets/project-1.png"
-                    alt="Project 1"
-                    class="project-img"
-                  />
-                </div>
-                <h2 class="experience-sub-title project-title">Project One</h2>
-                <div class="btn-container">
-                  <button
-                    class="btn btn-color-2 project-btn"
-                    onclick="location.href='https://github.com/'"
-                  >
-                    Github
-                  </button>
-                  <button
-                    class="btn btn-color-2 project-btn"
-                    onclick="location.href='https://github.com/'"
-                  >
-                    Live Demo
-                  </button>
-                </div>
-              </div>
-              <div class="details-container color-container">
-                <div class="article-container">
-                  <img
-                    src="./assets/project-2.png"
-                    alt="Project 2"
-                    class="project-img"
-                  />
-                </div>
-                <h2 class="experience-sub-title project-title">Project Two</h2>
-                <div class="btn-container">
-                  <button
-                    class="btn btn-color-2 project-btn"
-                    onclick="location.href='https://github.com/'"
-                  >
-                    Github
-                  </button>
-                  <button
-                    class="btn btn-color-2 project-btn"
-                    onclick="location.href='https://github.com/'"
-                  >
-                    Live Demo
-                  </button>
-                </div>
-              </div>
-              <div class="details-container color-container">
-                <div class="article-container">
-                  <img
-                    src="./assets/project-3.png"
-                    alt="Project 3"
-                    class="project-img"
-                  />
-                </div>
-                <h2 class="experience-sub-title project-title">Project Three</h2>
-                <div class="btn-container">
-                  <button
-                    class="btn btn-color-2 project-btn"
-                    onclick="location.href='https://github.com/'"
-                  >
-                    Github
-                  </button>
-                  <button
-                    class="btn btn-color-2 project-btn"
-                    onclick="location.href='https://github.com/'"
-                  >
-                    Live Demo
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
+          <div class="carousel-container" id="carousel">
+  <div class="carousel-track">
+    <!-- Slide 1 -->
+    <div class="carousel-slide">
+      <img src="./assets/robokap-image.jpg" alt="Project 1" class="project-img" />
+      <h2 class="experience-sub-title project-title">Project One</h2>
+      <p class="project-summary">A mobile app for better communication with team members using Kotlin and Firebase.</p>
+      <button class="btn btn-color-2 project-btn" 
+      onclick="openModal([
+  './assets/robokap-image.jpg',
+  './assets/robokap-image.jpg',
+  './assets/dino mob.jpg'
+])">
+View More</button>
+
+    </div>
+
+    <!-- Slide 2 -->
+    <div class="carousel-slide">
+      <img src="./assets/dino mob.jpg" alt="Project 2" class="project-img" />
+      <h2 class="experience-sub-title project-title">Project Two</h2>
+      <p class="project-summary">An inventory system for tracking sales and stock using Room DB and Retrofit.</p>
+      <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">View More</button>
+    </div>
+
+    <!-- Slide 3 -->
+    <div class="carousel-slide">
+      <img src="./assets/project-3.png" alt="Project 3" class="project-img" />
+      <h2 class="experience-sub-title project-title">Project Three</h2>
+      <p class="project-summary">A UI/UX-focused app prototype designed using Figma and Jetpack Compose.</p>
+      <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">View More</button>
+    </div>
+  </div>
+
+  <button class="carousel-btn prev">&#10094;</button>
+  <button class="carousel-btn next">&#10095;</button>
+
+  <!-- Dots -->
+  <div class="carousel-dots">
+    <span class="dot active" onclick="goToSlide(0)"></span>
+    <span class="dot" onclick="goToSlide(1)"></span>
+    <span class="dot" onclick="goToSlide(2)"></span>
+  </div>
+</div>
           <img
             src="./assets/arrow.png"
             alt="Arrow icon"
@@ -416,5 +384,15 @@
           <p>Copyright &#169; 2025 Seth Aldwin. All Rights Reserved.</p>
         </footer>
     <script src="script.js"></script>
+
+<div id="modal" class="modal">
+  <span class="close" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+    <div class="modal-images" id="modalImages">
+      <!-- Images will be injected here -->
+    </div>
+  </div>
+</div>
+
 </body>
 </html>
