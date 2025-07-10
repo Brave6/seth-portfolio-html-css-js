@@ -525,7 +525,7 @@ article {
 .carousel-dots {
   display: flex;
   justify-content: center;
-  margin-top: 5rem;
+  margin-top: 1rem;
   gap: 0.5rem;
 }
 
@@ -597,4 +597,18 @@ article {
   font-size: 2rem;
   font-weight: bold;
   cursor: pointer;
+}
+
+.project-img {
+  width: 60%;
+  height: 70%;
+  background-image: url('./assets/dino.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width: 768px) {
+  .project-img {
+    background-image: url('./assets/dino-mob.jpg');
+  }
 }
