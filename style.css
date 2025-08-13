@@ -601,7 +601,7 @@ article {
 
 .project-img {
   width: 60%;
-  height: 70%;
+  height: max-content;
   background-image: url('./assets/dino.jpg');
   background-size: cover;
   background-position: center;
