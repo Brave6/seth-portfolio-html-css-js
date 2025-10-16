@@ -61,7 +61,7 @@ let currentSlide = 0;
   // Autoplay every 5 seconds
   setInterval(() => {
     moveSlide(1);
-  }, 5000);
+  }, 15000);
 
   // Swipe Support (Touch Events)
   const carousel = document.getElementById('carousel');
